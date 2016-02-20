@@ -98,8 +98,8 @@ public class View {
         .addComponent(textArea))
       .addGroup(layout.createParallelGroup(GroupLayout.Alignment.CENTER)
         .addComponent(showButton))
-        .addGroup(layout.createParallelGroup(GroupLayout.Alignment.CENTER)
-          .addComponent(clearButton))
+      .addGroup(layout.createParallelGroup(GroupLayout.Alignment.CENTER)
+        .addComponent(clearButton))
     );
   }
 
