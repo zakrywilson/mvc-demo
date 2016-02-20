@@ -1,6 +1,7 @@
 import javax.swing.*;
 
 /**
+ * Runs the program.
  * @author Zach Wilson
  * @since Feb 19, 2016
  */

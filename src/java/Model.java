@@ -1,4 +1,5 @@
 /**
+ * Represents the model in the MVC.
  * @author Zach Wilson
  * @since Feb 19, 2016
  */

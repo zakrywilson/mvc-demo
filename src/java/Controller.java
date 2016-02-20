@@ -3,6 +3,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
+ * Represents the controller in the MVC.
  * @author Zach Wilson
  * @since Feb 19, 2016
  */

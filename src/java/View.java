@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
+ * Represents the view in the MVC.
  * @author Zach Wilson
  * @since Feb 19, 2016
  */
