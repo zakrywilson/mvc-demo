@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# author: Zach Wilson
+# since: Feb 19, 2016
+
+clear
+# Remove *.class files if they exist
+if [ -e *.class ]; then
+  rm *.class
+fi
+
+cd src/java
+
+# Runs program
+javac *.java
+java GUI
+
+# Clean up after running
+rm *.class
+
+cd ../..
