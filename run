@@ -9,7 +9,7 @@ if [ -e *.class ]; then
   rm *.class
 fi
 
-cd src/java
+cd src
 
 # Runs program
 javac *.java
@@ -18,4 +18,4 @@ java GUI
 # Clean up after running
 rm *.class
 
-cd ../..
+cd ..
