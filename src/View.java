@@ -53,7 +53,7 @@ public class View {
   }
 
   /**
-   * Creates components.
+   * Creates components: show button, clear button, and text area.
    */
   private void createComponents() {
     showButton = createButton("show");
@@ -62,7 +62,8 @@ public class View {
   }
 
   /**
-   * Creates new showButton.
+   * Creates new button with desired size (100x25) and title.
+   * @return the new button
    */
   private JButton createButton(final String title) {
     JButton button = new JButton(title);
