@@ -114,7 +114,7 @@ public class View {
 
   /**
    * Gets the show button.
-   * @return the showButton
+   * @return the show button
    */
   public JButton getShowButton() {
     return showButton;
@@ -122,6 +122,7 @@ public class View {
 
   /**
    * Gets the clear button.
+   * @return the clear button
    */
   public JButton getClearButton() {
     return clearButton;
