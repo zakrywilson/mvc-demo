@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Represents the view in the MVC.
+ * Represents the view in the MVP.
  * @author Zach Wilson
  * @since Feb 19, 2016
  */
@@ -44,7 +44,7 @@ public class View {
    * Create the display.
    */
   private void display() {
-    frame.setTitle("MVC Demo");
+    frame.setTitle("MVP Demo");
     frame.setSize(300, 200);
     frame.setLocationRelativeTo(null);
     frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);

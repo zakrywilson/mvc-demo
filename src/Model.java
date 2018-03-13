@@ -1,5 +1,5 @@
 /**
- * Represents the model in the MVC.
+ * Represents the model in the MVP.
  * @author Zach Wilson
  * @since Feb 19, 2016
  */

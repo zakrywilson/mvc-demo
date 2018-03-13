@@ -3,16 +3,16 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Represents the controller in the MVC.
+ * Represents the presenter in the MVP.
  * @author Zach Wilson
  * @since Feb 19, 2016
  */
-public class Controller {
+public class Presenter {
 
-  /** Model of the MVC */
+  /** Model of the MVP */
   private Model model;
 
-  /** View of the MVC */
+  /** View of the MVP */
   private View view;
 
   /**
@@ -20,7 +20,7 @@ public class Controller {
    * @param m - the model
    * @param v - the view
    */
-  Controller(Model m, View v) {
+  Presenter(Model m, View v) {
     this.model = m;
     this.view = v;
   }

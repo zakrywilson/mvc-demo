@@ -1,6 +1,6 @@
-# Model-View-Controller Demo
+# Model-View-Presenter Demo
 
-A small demonstration of the model-view-controller with Java Swing.
+A small demonstration of the model-view-presenter with Java Swing.
 
 ### How to run
 
