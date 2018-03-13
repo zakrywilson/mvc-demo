@@ -6,7 +6,9 @@ A small demonstration of the model-view-presenter with Java Swing.
 
 Simply run the script your Terminal:
 
-`> ./run`
+```bash
+./run
+```
 
 ### What does it do
 
