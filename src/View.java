@@ -3,6 +3,7 @@ import java.awt.*;
 
 /**
  * Represents the view in the MVP.
+ *
  * @author Zach Wilson
  * @since Feb 19, 2016
  */
@@ -63,6 +64,7 @@ public class View {
 
   /**
    * Creates new button with desired size (100x25) and title.
+   *
    * @return the new button
    */
   private JButton createButton(final String title) {
@@ -74,6 +76,7 @@ public class View {
 
   /**
    * Creates the text area.
+   *
    * @return the text area
    */
   private JTextArea createTextArea() {
@@ -107,6 +110,7 @@ public class View {
 
   /**
    * Gets the frame.
+   *
    * @return the frame
    */
   public JFrame getFrame() {
@@ -115,6 +119,7 @@ public class View {
 
   /**
    * Gets the show button.
+   *
    * @return the show button
    */
   public JButton getShowButton() {
@@ -123,6 +128,7 @@ public class View {
 
   /**
    * Gets the clear button.
+   *
    * @return the clear button
    */
   public JButton getClearButton() {
@@ -131,6 +137,7 @@ public class View {
 
   /**
    * Get the text area.
+   *
    * @return the text area
    */
   public JTextArea getTextArea() {

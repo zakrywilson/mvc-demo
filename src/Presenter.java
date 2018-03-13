@@ -4,6 +4,7 @@ import java.awt.event.ActionListener;
 
 /**
  * Represents the presenter in the MVP.
+ *
  * @author Zach Wilson
  * @since Feb 19, 2016
  */
@@ -17,6 +18,7 @@ public class Presenter {
 
   /**
    * Constructor.
+   *
    * @param m - the model
    * @param v - the view
    */
